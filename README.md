@@ -17,11 +17,13 @@ The workflow of this project is as follows:
 1. **Data Loading and Exploration**:
    - Loaded and inspected historical stock price data from 2017 to 2025.
    - Performed extensive exploratory data analysis (EDA) to understand the dataset's structure and distribution.
+   <img src="EDA.png" width="600"/>
 
 2. **Data Preprocessing**:
    - Cleaned and preprocessed the data by handling missing values and scaling numerical features.
    - Carried out feature engineering
    - Split the dataset into training, validation, and testing sets.
+   <img src="Split.png" width="600"/>
 
 3. **Model Building**:
    - Designed and implemented 4 Deep Neural Networks (DNNs) with TensorFlow/Keras.
@@ -36,6 +38,10 @@ The workflow of this project is as follows:
    - Visualized the model's predictions compared to the actual stock prices.
    - Generated plots to interpret the model's accuracy and performance.
 
+   <img src="FNN.png" width="600"/>
+   <img src="LSTM.png" width="600"/>
+   <img src="Attention_GRU.png" width="600"/>
+   <img src="CNN_BiLSTM_Attention.png" width="600"/>
 ---
 ##  How To Run
 
