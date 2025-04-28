@@ -41,11 +41,11 @@ The workflow of this project is as follows:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Lummy-A/machine-learning-digits-classification.git
-   cd machine-learning-digits-classification
+   git clone https://github.com/Lummy-A/DNNs_StarbucksStockPricePrediction.git
+   cd Building_DNNs_for_Starbucks_Open_StockPrice_Prediction.ipynb
 2. Navigate into the project directory:
    ```bash
-   cd digits-classification-ml
+   cd Building_DNNs_for_Starbucks_Open_StockPrice_Prediction.ipynb
 3. Set up a virtual environment (optional but recommended):
    ```bash
    python -m venv venv
@@ -65,7 +65,7 @@ If you prefer not to run it locally and want to try it on Google Colab, just fol
 1. Open Google Colab.
 2. Click on File → Open notebook.
 3. Select the GitHub tab and enter your repository URL:
-https://github.com/Lummy-A/machine-learning-digits-classification
+https://github.com/Lummy-A/DNNs_StarbucksStockPricePrediction
 4. Open the notebook from the list and run it just like you would in Jupyter Notebook.
 
 ## Collaborators
