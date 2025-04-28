@@ -1,9 +1,14 @@
 # Building Deep Neural Networks for Starbucks Stock Open Price Prediction
-In this project, we built and leveraged Deep Neural Networks (DNNs) to predict the daily opening stock price of Starbucks. By utilizing historical stock price data from 2017 to 2025, we aim to provide accurate stock price predictions to support financial analysis and decision-making.
+In this project, we leveraged 4 Deep Neural Networks (DNNs) to predict the daily opening stock price of Starbucks. We used 2 well known existing DNNs, and built 2 Hybrid DNNs. By utilizing historical stock price data from 2017 to 2025, we aim to provide accurate stock price predictions to support financial analysis and decision-making.
 
 ## Introduction
 
-Predicting stock prices is a challenging task due to the dynamic and complex nature of financial markets. In this project we built, trained, hypertuned, and then trained Deep Neural Networks (DNNs) to predict Starbucks' daily opening stock prices using a historical Starbucks dataset. We employed data preprocessing techniques, model optimization, and performance evaluation to achieve the best possible predictions.
+Predicting stock prices is a challenging task due to the dynamic and complex nature of financial markets. In this project we built, hypertuned, and trained 4 Deep Neural Networks (DNNs) to predict Starbucks' daily opening stock prices using a historical Starbucks dataset. We employed data preprocessing techniques, model optimization, and performance evaluation to achieve the best possible predictions. We aimed to address the task in 3 different ways. In the code file, the first model processes the data independently at each time instance, the second and third models process the data as a timeseries, and the fourth deep network approaches the task as a regression problem. 
+
+- **Model 1: FNN (FeedForward Neural Network)**
+- **Model 2: Long Short-Term Memory (LSTM)**
+- **Model 3: Attention-GRU**
+- **Model 4: Hybrid CNN-BiLSTM-Attention DNN**
 
 ## Project Workflow
 
