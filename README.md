@@ -37,4 +37,65 @@ The workflow of this project is as follows:
    - Generated plots to interpret the model's accuracy and performance.
 
 ---
+##  How To Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Lummy-A/machine-learning-digits-classification.git
+   cd machine-learning-digits-classification
+2. Navigate into the project directory:
+   ```bash
+   cd digits-classification-ml
+3. Set up a virtual environment (optional but recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
+4. Install the required dependencies: Install all the Python libraries listed in the requirements.txt file by running:
+   ```bash
+   pip install -r requirements.txt
+5. Open the Jupyter notebook: Launch Jupyter Notebook to open the project:
+   ```bash
+   jupyter notebook group_notebook.ipynb
+6. Run the notebook:
+   Once the notebook opens, run the cells in order to load the data, train the models, and evaluate them.
+   The results, including metrics and plots, will appear as you go through the notebook.
+
+**For running in Google Colab (Optional):**
+If you prefer not to run it locally and want to try it on Google Colab, just follow these steps:
+1. Open Google Colab.
+2. Click on File → Open notebook.
+3. Select the GitHub tab and enter your repository URL:
+https://github.com/Lummy-A/machine-learning-digits-classification
+4. Open the notebook from the list and run it just like you would in Jupyter Notebook.
+
+## Collaborators
+This project is a collaboration between
+- **Lum Apeh Temukum**
+- **Devashish Vidhate**
+- **Kaushik Kumar** 
+- **Sai Priyadharsini**
+
+## Contributing
+
+We welcome contributions! If you’d like to help improve this project, follow these steps:
+
+1. Fork this repository.
+2. Clone your fork locally.
+3. Create a new branch (`git checkout -b feature-branch`).
+4. Make your changes and commit (`git commit -m 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
+
+Feel free to open an issue for any questions, suggestions, or bugs!
+
+## References
+This project cites academic papers and textbook references for the DNNs, evaluation technique, and model improvement strategies.
+(Full reference list is included inside the project folder.)
+
+## Acknowledgement
+Generative AI (ChatGPT) was used for code optimization suggestions.
+All main logic, model building, evaluation, and tuning were manually implemented.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
